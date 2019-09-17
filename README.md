@@ -124,6 +124,11 @@ namespace expression::action {
         return Expression_(Term(tree[0]), tree[1]);
     }
 }
-
 ```
 
+## Todo
+* Automatic tree traversal
+* [Packrat style memoization](https://ohmlang.github.io/pubs/sle2017/incremental-packrat-parsing.pdf)
+
+## Authors
+* Thomas Barrett
